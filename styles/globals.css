@@ -3,8 +3,27 @@
 @tailwind utilities;
 
 .instagram-logo {
-  background-position: 0 -130%;
+  background-position: 0 -130px;
   height: 51px;
   width: 175px;
   background-image: url(https://bit.ly/3v2LT17);
+}
+.facebook-logo {
+  background-position: -414px -259px;
+  background-image: url(https://bit.ly/3v2LT17);
+  height: 16px;
+  width: 16px;
+}
+
+.apple-store-logo {
+  height: 40px;
+  width: 134px;
+  background-size: contain;
+  background-image: url(https://developer.apple.com/news/images/download-on-the-app-store-badge.png);
+}
+.google-store-logo {
+  height: 40px;
+  width: 134px;
+  background-size: contain;
+  background-image: url(https://www.instagram.com/static/images/appstore-install-badges/badge_android_japanese-ja.png/8ce59d2c3625.png);
 }
